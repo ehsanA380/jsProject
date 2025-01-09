@@ -6,7 +6,9 @@ console.log(button);
 
 button.addEventListener('click',()=>{
     popup.classList.add('open')
+    popup.classList.remove('close');
 })
 closeicon.addEventListener('click',()=>{
-    popup.classList.remove('open')
+    popup.classList.remove('open');
+    popup.classList.add('close');
 })
