@@ -51,21 +51,22 @@ button{
     border: 1px solid gray;
 }
 
+.popup-container{
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    /* display: none; */
+}
+.close-popup-container{
+    background: none;
+    height: auto;
+}
 
-@keyframes animation {
-    0% { 
-        background-color: red; 
-        /* top: 0%; */
-    }
-    
-    100% {
-         background-color: green; 
-         top: -100%;
-    }
-  }
+
 
   .close{
-    top: -200%;
-    display: hidden;
+    bottom: -75%;
+    transform: scale(.1);
+    opacity: 0;
+    z-index: -1;
 
   }
