@@ -31,6 +31,8 @@ body{
     right: 16px;
     cursor: pointer;
     font-family: serif;
+    user-select: none;
+
 }
 .open{
     display: block;
