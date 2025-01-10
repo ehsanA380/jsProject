@@ -55,7 +55,14 @@ button{
 
 .popup-container{
     background: rgba(0, 0, 0, 0.3);
-    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    z-index: -2;
+    inset: 0;
+    
+    /* max-height: 100vh; */
+    /* height: 100%; */
+    /* max-width: ; */
     /* display: none; */
 }
 .close-popup-container{
